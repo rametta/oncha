@@ -401,7 +401,7 @@ fork(a => a)(b => b)(fut)
 Map as partial application and first class with arity support.
 
 ``` javascript
-import fork from 'oncha/map'
+import map from 'oncha/map'
 
 map(a => a + 1, a => a * 3)([1, 2, 3])
 //=> [4, 7, 10]
